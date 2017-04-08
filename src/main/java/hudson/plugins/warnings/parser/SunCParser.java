@@ -18,7 +18,7 @@ public class SunCParser extends RegexpLineParser {
     private static final String SUN_CPP_WARNING_PATTERN = "^\\s*\"(.*)\"\\s*,\\s*line\\s*(\\d+)\\s*:\\s*(Warning|Error)(?:| .Anachronism.)\\s*(?:, \\s*([^:]*))?\\s*:\\s*(.*)$";
 
     /**
-     * Creates a new instance of <code>HpiCompileParser</code>.
+     * Creates a new instance of {@link SunCParser}.
      */
     public SunCParser() {
         super(Messages._Warnings_sunc_ParserName(),
